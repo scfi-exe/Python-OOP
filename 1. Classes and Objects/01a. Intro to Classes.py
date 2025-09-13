@@ -9,3 +9,7 @@ class SuperHero:
 
 # In Python, a Class is is defined by the keyword Class, followed by the Name of the class and then a colon:
 # The __init__() method is a special method that belongs to the class. It creates the object and initializes its attributes
+
+# Notice that the __init__() method has the arugment self. This is required
+# The self variable allows us to add attributes to our object
+# It also prevents name conflicts, since name and self.name are different variables

@@ -42,13 +42,12 @@ class PasswordManager:
     def __init__(self, __pw=str):
         self.__pw = __pw
 
+    # TODO: Implement the verify_password method
     def verify_password(self, inputpw):
         if inputpw == self.__pw:
             return True
         else:
             return False
-
-    # TODO: Implement the verify_password method
 
 
 # Don't modify the code below this line
