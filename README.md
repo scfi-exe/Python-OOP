@@ -1,3 +1,3 @@
 # Python-OOP
 
-Brief overview of OOP in Ptyhon
+Brief overview of OOP in Python
