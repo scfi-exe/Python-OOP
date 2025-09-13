@@ -47,7 +47,7 @@ class CurrencyConverter:
 
     # TODO: Implement the static method `to_usd`
     @staticmethod
-    def to_usd(val=int, curr=str):
+    def to_usd(val=float, curr=str):
         if curr.upper() == "EUR":
             val = val * 1.20
             return val
