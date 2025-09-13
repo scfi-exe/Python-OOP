@@ -2,10 +2,10 @@
 # You are given the Hero class and the __init__ method. Your tasks are:
 #   1. Add a static method, calculate_effective_power, that takes two parameters:
 #       base_power: The hero's base power level (integer)
-#       attributes: A dictionary containing the hero's attrbutes (strength, speed, intelligence)
+#       attributes: A dictionary containing the hero's attributes (strength, speed, intelligence)
 #      The method should:
 #       1. Calculate the attribute_bonus by averaging all attrbute values. Use sum(attribute.values())/len(attributes) to get the average
-#       2. Calculate the effective power, using the formula: base_power * (1+attrbute_bonus)
+#       2. Calculate the effective power, using the formula: base_power * (1+attribute_bonus)
 #       3. Round the final result to once decimal place
 #       4. Return the effective calculated power
 
